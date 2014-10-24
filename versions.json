@@ -125,6 +125,14 @@
       "1.0.1"
     ],
     [
+      "peerlibrary:blocking",
+      "0.4.2"
+    ],
+    [
+      "peerlibrary:xml2js",
+      "0.4.4-2"
+    ],
+    [
       "quickbooks",
       "0.1.0"
     ],
