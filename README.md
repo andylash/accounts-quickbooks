@@ -5,7 +5,10 @@ This package allows oAuth via the Quickbooks API
 
 [Quickbooks](https://developer.intuit.com)
 
-Latest Version: **0.1.0**
+Latest Version: **0.1.1**
+
+## WARNING
+This relies on an accepted pull request (https://github.com/meteor/meteor/pull/2894), that isn't yet in a public meteor build.  I'll update this when it is.
 
 ## Install
 
