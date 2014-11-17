@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('andylash:quickbooks', ['client', 'server']);
+  api.use('andylash:quickbooks@0.1.1', ['client', 'server']);
 
   api.use('http', ['client', 'server']);
 
