@@ -3,7 +3,7 @@
 Package.describe({
   summary: "Login service for Quickbooks accounts",
   version: "0.1.1",
-  name: "accounts-quickbooks",
+  name: "andylash:accounts-quickbooks",
   git: "https://github.com/andylash/accounts-quickbooks.git",
 });
 
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('quickbooks', ['client', 'server']);
+  api.use('andylash:quickbooks', ['client', 'server']);
 
   api.use('http', ['client', 'server']);
 
