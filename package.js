@@ -2,7 +2,9 @@
 
 Package.describe({
   summary: "Login service for Quickbooks accounts",
-  version: "0.1.0"
+  version: "0.1.1",
+  name: "accounts-quickbooks",
+  git: "https://github.com/andylash/accounts-quickbooks.git",
 });
 
 Package.onUse(function(api) {
