@@ -2,13 +2,13 @@
 
 Package.describe({
   summary: "Login service for Quickbooks accounts",
-  version: "0.1.1",
+  version: "0.1.2",
   name: "andylash:accounts-quickbooks",
   git: "https://github.com/andylash/accounts-quickbooks.git",
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.0');
+  api.versionsFrom('METEOR@1.0.2');
 
   api.use('underscore', ['server']);
   api.use('accounts-base', ['client', 'server']);
